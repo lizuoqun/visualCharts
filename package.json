@@ -1,0 +1,17 @@
+{
+  "name": "visualCharts",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "typescript": "^5.4.5",
+    "vite": "^4.5.1",
+    "vue": "^3.0.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vue/compiler-sfc": "^3.0.4"
+  }
+}
