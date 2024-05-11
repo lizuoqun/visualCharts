@@ -14,7 +14,7 @@ export default defineConfig({
     lib: {
       entry: resolve(__dirname, '../src/main.ts'),
       name: 'VisualCharts',
-      fileName: (format) => `VisualCharts.${format}.js`
+      fileName: (format) => `visual-charts.${format}.js`
     },
     rollupOptions: {
       external: ['vue'],

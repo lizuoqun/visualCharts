@@ -1,6 +1,11 @@
 {
-  "name": "visualCharts",
-  "version": "0.0.0",
+  "name": "visual-charts",
+  "private": false,
+  "type": "module",
+  "version": "0.0.1",
+  "main": "/dist/visual-charts.es.js",
+  "style": "/dist/style.css",
+  "files": ["dist"],
   "scripts": {
     "dev": "vite",
     "build": "vite build",
