@@ -1,6 +1,14 @@
-# visualCharts
+<p align="center">
+<img src="public/visual128.png" alt="mark text" width="128" height="128">
+</p>
 
-VisualCharts https://visualcharts.vercel.app/
+# visual-charts
+
+## 文档说明
+
+- [visual-charts 组件文档](https://visualcharts.vercel.app/)
+- [visual-charts for gitee](https://gitee.com/modify_lzq/visualCharts.git)
+- [visual-charts for github](https://github.com/lizuoqun/visualCharts.git)
 
 ## 代码层级说明
 

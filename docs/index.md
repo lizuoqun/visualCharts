@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: visualCharts
+  name: visual-charts
   text: Vue3可视化组件库 <samp class="docs-cn-github-release-tag">v0.0.1</samp>
   tagline: 快速开发、迭代
   image:

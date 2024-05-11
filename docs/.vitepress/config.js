@@ -1,7 +1,7 @@
 export default {
   // site-level options
-  title: 'visualCharts',
-  description: 'visualCharts',
+  title: 'visual-charts',
+  description: 'visual-charts',
   head: [
     ['link', {rel: 'icon', href: './logo.png'}],
     ['link', {rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css'}],
@@ -9,7 +9,7 @@ export default {
   ],
   lang: 'zh-CN',
   lastUpdated: true,
-  base: '/visualCharts/',
+  base: '/visual-charts/',
   alias: {
     '/@/': '/src/'
   },
