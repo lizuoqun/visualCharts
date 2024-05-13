@@ -10,6 +10,11 @@
 - [visual-charts for gitee](https://gitee.com/modify_lzq/visualCharts.git)
 - [visual-charts for github](https://github.com/lizuoqun/visualCharts.git)
 
+## 启动流程
+```cmd
+npm install
+npm run dev
+```
 ## 代码层级说明
 
 | 目录      | 子目录（文件）       | 说明             |
