@@ -18,6 +18,7 @@ export default defineConfig({
     },
     rollupOptions: {
       external: ['vue'],
+      minify: 'terser',
       output: {
         globals: {
           vue: 'Vue'

@@ -19,7 +19,8 @@ export default defineConfig(() => {
         manualChunks: {
           vue: ['vue'],
           element: ['element-plus']
-        }
+        },
+        minify: 'terser'
       }
     },
     server: {

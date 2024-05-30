@@ -10,6 +10,9 @@ export default {
   lang: 'zh-CN',
   lastUpdated: true,
   base: '/visual-charts/',
+  server: {
+    port: 8099 // 设置新的端口号
+  },
   alias: {
     '/@/': '/src/'
   },
@@ -51,57 +54,28 @@ export default {
 function nav() {
   return [
     {text: '首页', link: '/'},
-    // {text: '开始', link: '/README.md'},
+    {text: '开始', link: '/README.md'},
     {
-      text: '组件', link: '/', activeMatch: '/components/'
+      text: '组件', link: '/component/title/title1', activeMatch: '/component/'
     }
   ];
 }
 
 function sidebar() {
   return {
-    '/components/': components(),
+    '/component/': component()
   };
 }
 
 
-function components() {
+function component() {
   return [
     {
-      text: '前端',
+      text: '标题组件',
       collapsible: false,
       collapsed: false,
       items: [
-        {text: 'css', link: '/topic/frontend/css'},
-        {text: 'js', link: '/topic/frontend/js'},
-        {text: 'vue2', link: '/topic/frontend/vue2'},
-        {text: 'vue3', link: '/topic/frontend/vue3'},
-        {text: 'webpack', link: '/topic/frontend/webpack'},
-        {text: 'ssr', link: '/topic/frontend/ssr'}
-      ]
-    },
-    {
-      text: 'JAVA',
-      collapsed: false,
-      collapsible: false,
-      items: [
-        {text: 'Java基础', link: '/topic/java/base'},
-        {text: '线程并发', link: '/topic/java/thread'},
-        {text: 'Tomcat', link: '/topic/java/tomcat'},
-        {text: 'Spring', link: '/topic/java/spring'},
-        {text: 'Redis', link: '/topic/java/redis'},
-        {text: 'ES', link: '/topic/java/es'},
-        {text: 'Zookeeper', link: '/topic/java/zk'},
-        {text: 'RabbitMQ', link: '/topic/java/rabbitmq'}
-      ]
-    },
-    {
-      text: 'MYSQL',
-      collapsible: false,
-      collapsed: false,
-      items: [
-        {text: 'lock', link: '/topic/mysql/lock'},
-        {text: 'tree', link: '/topic/mysql/tree'}
+        {text: '标题一', link: '/component/title/title1'}
       ]
     }
   ];
