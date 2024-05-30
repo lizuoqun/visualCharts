@@ -10,8 +10,8 @@ import Title1 from './title/title1.vue';
 
 export const myPlugin = {
   install(app) {
-    app.component('BorderBox8', BorderBox8);
-    app.component('Decoration5', Decoration5);
+    app.component('mBorderBox8', BorderBox8);
+    app.component('mDecoration5', Decoration5);
     app.component('mTurntable', Turntable);
     app.component('mTitle1', Title1);
   }
