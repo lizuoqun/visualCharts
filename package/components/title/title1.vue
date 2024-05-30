@@ -18,7 +18,7 @@ const props = defineProps({
 #titleComponent {
   height: 30px;
   background-image: linear-gradient(90deg, rgba(67, 205, 255, 0.4) 0%, rgba(35, 167, 255, 0) 98%);
-  margin-left: 3rem;
+  margin-left: 10px;
   width: 50%;
   display: flex;
   align-items: center;
@@ -34,8 +34,10 @@ const props = defineProps({
 }
 
 .m-title__inner {
-  margin-left: 2rem;
+  margin-left: 10px;
   font-weight: bold;
   font-size: 18px;
+  height: 30px;
+  line-height: 30px;
 }
 </style>

@@ -1,7 +1,7 @@
 <!-- dataView vue3 组件 -->
 <template>
-  <div ref="BorderBox8" class="relative w-full h-full">
-    <svg class="absolute w-full h-full top-0 left-0" :width="width" :height="height">
+  <div ref="BorderBox8" class="m_border_box8">
+    <svg class="m_border_box8_svg" :width="width" :height="height">
       <defs>
         <path id="border-box-8-path-datav_uuid1" :d="pathD"
               fill="transparent"></path>
@@ -24,7 +24,7 @@
         <animate attributeName="stroke-dasharray" from="0, 0" to="0, 0" dur="3s" repeatCount="indefinite"></animate>
       </use>
     </svg>
-    <div class="relative w-full h-full">
+    <div class="m_border_box8__slot">
       <slot><!----></slot>
     </div>
   </div>
@@ -54,3 +54,25 @@ onMounted(() => {
   pathD.value = props.reverse ? `M2.5, 2.5 L${width.value - 2.5}, 2.5 L${width.value - 2.5}, ${height.value - 2.5} L2.5, ${height.value - 2.5} L2.5, 2.5` : `M 2.5, 2.5 L 2.5, ${height.value - 2.5} L ${width.value - 2.5}, ${height.value - 2.5} L ${width.value - 2.5}, 2.5 L 2.5, 2.5`;
 });
 </script>
+
+<style scoped>
+.m_border_box8 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.m_border_box8_svg{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.m_border_box8__slot {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+</style>

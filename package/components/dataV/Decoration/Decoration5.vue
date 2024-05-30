@@ -4,7 +4,7 @@
     直接把这个组件的代码拿出来放在这里当一个自有组件
  -->
 <template>
-  <div data-v-f6787687="" class="w-full h-full">
+  <div class="m_decoration5_box">
     <svg width="2048" height="95">
       <polyline fill="transparent" stroke="#3f96a5" stroke-width="3"
                 points="0,19 368.64,19 409.6,38 512,38 552.96,57 1474.56,57 1536,38 1638.4,38 1679.36,19 2048,19">
@@ -22,3 +22,9 @@
     </svg>
   </div>
 </template>
+<style scoped>
+.m_decoration5_box {
+  width: 100%;
+  height: 100%;
+}
+</style>

@@ -2,7 +2,7 @@
   <div>
     <mDecoration5 style="width: 100%; height: 100px"/>
     <mBorderBox8 style="width: 50%; height: 300px" :reverse="false"/>
-    <mTurntable style="width: 300px; height: 300px" class="turn" :option="option"/>
+    <mChart style="width: 300px; height: 300px" class="turn" :option="option"/>
     <mTitle1 title="标题"/>
   </div>
 </template>
@@ -57,7 +57,7 @@ setInterval(() => {
     item.value = Number((Math.random() * 10).toFixed(0));
   });
   option.value.series[0].data = data;
-}, 5000);
+}, 2000);
 
 </script>
 <style>
