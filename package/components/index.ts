@@ -12,7 +12,7 @@ export const myPlugin = {
   install(app) {
     app.component('BorderBox8', BorderBox8);
     app.component('Decoration5', Decoration5);
-    app.component('Turntable', Turntable);
-    app.component('Title1', Title1);
+    app.component('mTurntable', Turntable);
+    app.component('mTitle1', Title1);
   }
 };

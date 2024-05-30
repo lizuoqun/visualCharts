@@ -1,6 +1,6 @@
 import {defineConfig} from 'vite';
 
-import path from 'path'
+import path from 'path';
 import vue from '@vitejs/plugin-vue';
 
 export default defineConfig(() => {
@@ -21,6 +21,11 @@ export default defineConfig(() => {
           element: ['element-plus']
         }
       }
+    },
+    server: {
+      host: '0.0.0.0',
+      port: 2018,
+      open: true
     }
   };
 });
