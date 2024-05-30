@@ -20,6 +20,7 @@
     "echarts": "^5.5.0",
     "element-plus": "^2.7.2",
     "typescript": "^5.4.5",
+    "visual-charts": "^0.0.2",
     "vite": "^4.5.1",
     "vitepress": "^1.0.0-rc.31",
     "vue": "^3.0.4"

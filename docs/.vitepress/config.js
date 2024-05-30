@@ -77,6 +77,14 @@ function component() {
       items: [
         {text: '标题一', link: '/component/title/title1'}
       ]
+    },
+    {
+      text: '图表组件',
+      collapsible: false,
+      collapsed: false,
+      items: [
+        {text: 'EChart图表', link: '/component/chart/chart'}
+      ]
     }
   ];
 }
