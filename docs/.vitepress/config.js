@@ -54,7 +54,7 @@ export default {
 function nav() {
   return [
     {text: '首页', link: '/'},
-    {text: '开始', link: '/README.md'},
+    {text: '开始', link: '/start.md'},
     {
       text: '组件', link: '/component/title/title1', activeMatch: '/component/'
     }
