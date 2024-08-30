@@ -11,15 +11,18 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "build:components": "vite build --config ./build/lib.config.js",
+    "build:components": "vite build --config vite.config.components.js",
     "docs:dev": "vitepress dev docs --port=1000",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
   },
   "dependencies": {
+    "@visual-charts/components": "file:@visual-chart/package/components",
+    "@visualCharts/components": "file:@visualChart/package/components",
     "echarts": "^5.5.0",
     "element-plus": "^2.7.2",
     "typescript": "^5.4.5",
+    "visual-chart": "file:visual-chart",
     "visual-charts": "^0.0.2",
     "vite": "^4.5.1",
     "vitepress": "^1.0.0-rc.31",

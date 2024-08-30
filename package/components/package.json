@@ -1,0 +1,12 @@
+{
+  "name": "@visual-charts/components",
+  "version": "0.0.1",
+  "description": "all components are settled here",
+  "main": "index.ts",
+  "author": "modify",
+  "peerDependencies": {
+    "vue": "^3.0.4"
+  },
+  "type": "module",
+  "sideEffects": false
+}

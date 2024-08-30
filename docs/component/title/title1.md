@@ -1,6 +1,6 @@
 # mTitle1
 
-<mTitle1 title="这是标题" />
+<mTitle1 title="这是标题"/>
 
 ::: code-group
 

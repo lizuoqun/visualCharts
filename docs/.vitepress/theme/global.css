@@ -206,3 +206,10 @@ svg {
     border-radius: 10px;
     vertical-align: middle
 }
+
+.VPDoc  {
+    height: 90vh;
+    margin-top: 2vh;
+    width: 100vw;
+    overflow-y: scroll;
+}
