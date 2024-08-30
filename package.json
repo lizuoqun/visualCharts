@@ -17,16 +17,12 @@
     "docs:preview": "vitepress preview docs"
   },
   "dependencies": {
-    "@visual-charts/components": "file:@visual-chart/package/components",
-    "@visualCharts/components": "file:@visualChart/package/components",
-    "echarts": "^5.5.0",
     "element-plus": "^2.7.2",
     "typescript": "^5.4.5",
     "visual-chart": "file:visual-chart",
-    "visual-charts": "^0.0.2",
-    "vite": "^4.5.1",
+    "vite": "^4.5.3",
     "vitepress": "^1.0.0-rc.31",
-    "vue": "^3.0.4"
+    "vue": "^3.4.38"
   },
   "devDependencies": {
     "@tsconfig/node18": "^18.2.4",

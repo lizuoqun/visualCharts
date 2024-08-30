@@ -27,7 +27,7 @@ xxx
 这里先对组件进行安装，如果是没有发布到npm的，可以用以下命令安装本地依赖
 
 ```shell
-npm install visual-chart ./visual-chart
+npm install visual-chart ./visual-chart --force
 ```
 
 在`.vitepress/theme/index.ts`当中进行引入组件进行全局注册，之后就可以在md当中使用组件了。

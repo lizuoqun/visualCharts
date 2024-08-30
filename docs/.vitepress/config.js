@@ -79,11 +79,11 @@ function component() {
       ]
     },
     {
-      text: '图表组件',
+      text: '背景组件',
       collapsible: false,
       collapsed: false,
       items: [
-        {text: 'EChart图表', link: '/component/chart/chart'}
+        {text: '代码雨', link: '/component/bg/codeRain'}
       ]
     }
   ];

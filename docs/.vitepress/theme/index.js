@@ -1,11 +1,11 @@
 import DefaultTheme from 'vitepress/theme';
 import ElementPlus from 'element-plus';
-import {visualCharts} from 'visual-chart/package/components';
+import {visualCharts} from 'visual-chart';
 import * as ElementPlusIconsVue from '@element-plus/icons-vue';
 import 'element-plus/dist/index.css';
 import './tailwind.postcss';
 import './global.css';
-import 'visual-charts/dist/style.css'
+import 'visual-chart/style.css'
 
 export default {
   ...DefaultTheme,
