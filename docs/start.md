@@ -27,6 +27,8 @@ xxx
 这里先对组件进行安装，如果是没有发布到npm的，可以用以下命令安装本地依赖
 
 ```shell
+npm uninstall visual-chart --force
+
 npm install visual-chart ./visual-chart --force
 ```
 

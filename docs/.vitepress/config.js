@@ -56,7 +56,7 @@ function nav() {
     {text: '首页', link: '/'},
     {text: '开始', link: '/start.md'},
     {
-      text: '组件', link: '/component/title/title1', activeMatch: '/component/'
+      text: '组件', link: '/component/title/title1'
     }
   ];
 }
@@ -72,18 +72,34 @@ function component() {
   return [
     {
       text: '标题组件',
-      collapsible: false,
-      collapsed: false,
+      collapsible: true,
+      collapsed: true,
       items: [
         {text: '标题一', link: '/component/title/title1'}
       ]
     },
     {
       text: '背景组件',
-      collapsible: false,
-      collapsed: false,
+      collapsible: true,
+      collapsed: true,
       items: [
         {text: '代码雨', link: '/component/bg/codeRain'}
+      ]
+    },
+    {
+      text: 'Loading组件',
+      collapsible: true,
+      collapsed: true,
+      items: [
+        {text: '折线图', link: '/component/chart/line'}
+      ]
+    },
+    {
+      text: '文本组件',
+      collapsible: true,
+      collapsed: true,
+      items: [
+        {text: '文本一', link: '/component/text/text1'}
       ]
     }
   ];

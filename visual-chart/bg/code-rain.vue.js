@@ -22,7 +22,11 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
     },
     colWidth: {
       type: Number,
-      default: 15
+      default: 16
+    },
+    fontSize: {
+      type: Number,
+      default: 16
     }
   },
   setup(__props) {
@@ -43,12 +47,11 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
         function draw() {
           ctx.fillStyle = "rgba(1,1,1,0.1)";
           ctx.fillRect(0, 0, width, height);
-          const fz = 15;
           ctx.fillStyle = getColor();
-          ctx.font = `${fz}px "FangSong"`;
+          ctx.font = `${props.fontSize}px "FangSong"`;
           for (let i = 0; i < colCount; i++) {
             const x = i * props.colWidth;
-            const y = fz * colNextIndex[i];
+            const y = props.fontSize * colNextIndex[i];
             ctx.fillText(getFont(), x, y);
             if (y > height && Math.random() > 0.95) {
               colNextIndex[i] = 0;
