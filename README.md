@@ -6,7 +6,7 @@
 
 ## 文档说明
 
-- [visual-charts 组件文档](https://visualcharts.vercel.app/)
+- [visual-charts 组件文档](http://122.51.159.230/visual-charts/)
 - [visual-charts for gitee](https://gitee.com/modify_lzq/visualCharts.git)
 - [visual-charts for github](https://github.com/lizuoqun/visualCharts.git)
 
